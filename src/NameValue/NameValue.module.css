@@ -1,0 +1,14 @@
+.NV__container {
+	margin: 0 auto;
+	margin-left: 1rem;
+	align-items: flex-start;
+	justify-content: left;
+	display: flex;
+	/* font-size: 0.5rem; */
+}
+.NV__name {
+	padding-right: 0.1rem;
+}
+.NV__value {
+	padding-right: 0.1rem;
+}

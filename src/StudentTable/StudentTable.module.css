@@ -1,0 +1,8 @@
+.student_list__container {
+	border-radius: 1rem;
+	border-style: ridge;
+	border-width: 0.001rem;
+	border-color: black;
+	margin: 0 auto;
+	width: min-content;
+}

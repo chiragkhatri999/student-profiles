@@ -1,0 +1,50 @@
+.student__row {
+	margin: 0;
+	display: flex;
+	width: min-content;
+	height: auto;
+	align-items: flex-start;
+	justify-content: left;
+	/* border-color: black;
+	border-width: 0.0001rem;
+	border-style: solid; */
+}
+.student_info__container {
+	display: inline-block;
+	align-items: flex-start;
+	justify-content: left;
+	align-self: left;
+	align-items: left;
+	width: min-content;
+}
+
+.student__avatar {
+	display: inline-block;
+}
+
+.student_avatar__wrapper {
+	--width: 70px;
+	width: var(--width);
+	border-radius: calc(var(--width) / 2);
+	border-color: black;
+	border-width: 0.001rem;
+	border-style: solid;
+	margin: 1rem;
+	display: flex;
+	justify-content: left;
+}
+
+.student__header {
+	font-size: larger;
+	height: calc(30%);
+	display: flex;
+	justify-content: left;
+	font-weight: bold;
+}
+
+.student__info {
+	margin: 0 auto;
+	height: 70%;
+	font-size: 0.8rem;
+	font-weight: 300;
+}
