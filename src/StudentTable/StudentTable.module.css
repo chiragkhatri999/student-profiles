@@ -1,8 +1,11 @@
 .student_list__container {
 	border-radius: 1rem;
-	border-style: ridge;
+	border-style: solid;
 	border-width: 0.001rem;
-	border-color: black;
+	border-color: #77aaff;
 	margin: 0 auto;
 	width: min-content;
+	padding: 10px;
+	box-shadow: -1px 1px #3f4146, -2px 2px #77aaff, -3px 3px #77aaff,
+		-4px 4px #77aaff, -5px 5px #77aaff;
 }
